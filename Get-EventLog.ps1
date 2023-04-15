@@ -20,3 +20,4 @@ foreach ($server in $serverList)
 #Saving the output file into the same directory with ServerName
 	$Eventlogs | Export-CSV -Path $outputFile\$filename.csv -Verbose
 }
+#End of the Script
